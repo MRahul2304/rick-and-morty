@@ -1,73 +1,83 @@
-# Welcome to your Lovable project
+Here’s the **cleaned-up version** of your `README.md` with all **Lovable-related content removed**, keeping only relevant project information and instructions:
 
-## Project info
+---
 
-**URL**: https://lovable.dev/projects/32addebc-57c4-4e6f-a634-c680544653b0
+````markdown
+# Rick & Morty Explorer
 
-## How can I edit this code?
+A single-page React application built with TypeScript, TanStack Query, Router, and Table to explore characters from the Rick & Morty universe.
 
-There are several ways of editing your application.
+## Features
 
-**Use Lovable**
+- Paginated list of characters
+- Persistent page state via URL (supports refresh and sharing)
+- Refresh button to re-fetch the current page
+- Dedicated character detail route
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/32addebc-57c4-4e6f-a634-c680544653b0) and start prompting.
+## Tech Stack
 
-Changes made via Lovable will be committed automatically to this repo.
+- React 18+
+- TypeScript
+- TanStack Query
+- TanStack Router
+- TanStack Table
+- Vite
 
-**Use your preferred IDE**
+## Getting Started
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Prerequisites
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- Node.js (v16 or higher)
+- npm or yarn
 
-Follow these steps:
+### Installation
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+```bash
+# Clone the repository
+git clone <your-repo-url>
+cd <project-directory>
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# Install dependencies
+npm install
+# or
+yarn install
+````
 
-# Step 3: Install the necessary dependencies.
-npm i
+### Run the App
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+```bash
 npm run dev
+# or
+yarn dev
 ```
 
-**Edit a file directly in GitHub**
+Open your browser at [http://localhost:5173](http://localhost:5173)
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### Build for Production
 
-**Use GitHub Codespaces**
+```bash
+npm run build
+# or
+yarn build
+```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+### Preview Production Build
 
-## What technologies are used for this project?
+```bash
+npm run preview
+# or
+yarn preview
+```
 
-This project is built with:
+## API Reference
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+All character data is fetched from the official [Rick & Morty API](https://rickandmortyapi.com/documentation).
 
-## How can I deploy this project?
+## License
 
-Simply open [Lovable](https://lovable.dev/projects/32addebc-57c4-4e6f-a634-c680544653b0) and click on Share -> Publish.
+This project is open source and available under the [MIT License](LICENSE).
 
-## Can I connect a custom domain to my Lovable project?
+```
 
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Let me know if you’d like this saved into a file, pushed to GitHub, or converted to a `.pdf` or deployment guide.
+```
