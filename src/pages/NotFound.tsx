@@ -20,7 +20,6 @@ const NotFound = () => {
       <Card className="max-w-md w-full bg-card/50 border-border/50 backdrop-blur-sm text-center">
         <CardHeader>
           <div className="mx-auto mb-4 text-6xl animate-portal-pulse">
-            <Zap className="h-16 w-16 text-portal-green mx-auto" />
           </div>
           <CardTitle className="text-4xl font-bold bg-gradient-portal bg-clip-text text-transparent">
             Portal Malfunction!
