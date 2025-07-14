@@ -1,8 +1,3 @@
-Here’s the **cleaned-up version** of your `README.md` with all **Lovable-related content removed**, keeping only relevant project information and instructions:
-
----
-
-````markdown
 # Rick & Morty Explorer
 
 A single-page React application built with TypeScript, TanStack Query, Router, and Table to explore characters from the Rick & Morty universe.
@@ -72,12 +67,3 @@ yarn preview
 ## API Reference
 
 All character data is fetched from the official [Rick & Morty API](https://rickandmortyapi.com/documentation).
-
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
-
-```
-
-Let me know if you’d like this saved into a file, pushed to GitHub, or converted to a `.pdf` or deployment guide.
-```
